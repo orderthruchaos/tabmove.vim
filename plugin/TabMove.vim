@@ -19,6 +19,6 @@ let g:TabMove_version = {
   \ }
 
 
-nnoremap <silent> <Leader>tl :call TabMove#TabMoveLeft()<CR>
-nnoremap <silent> <Leader>tr :call TabMove#TabMoveRight()<CR>
+nnoremap <silent> <LocalLeader>tl :call TabMove#TabMoveLeft()<CR>
+nnoremap <silent> <LocalLeader>tr :call TabMove#TabMoveRight()<CR>
 
