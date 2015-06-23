@@ -35,7 +35,7 @@ function! TabMove#TabMoveRight() " {{{
     tabmove 0
     return
   endif
-  silent! call s:TabMoveTo(tabpagenr())
+  silent! call s:TabMoveTo(tabpagenr() + 1)
 endfunction " }}}
 
 
